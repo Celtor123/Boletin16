@@ -9,9 +9,9 @@ public class Aplicacion {
 
    
     public static void main(String[] args) {
-        Persoal r= new Persoal(2,2);
-        r.imprimir();
-        Academia a= new Academia(63298,20,"Jaime",r);
+        Persoal alum= new Persoal(2,2);
+        alum.imprimir();
+        Academia a= new Academia(63298,20,"Jaime",alum);
         a.calcularNota(20);
         a.imprimir();
       // a.imprimir();

@@ -40,10 +40,12 @@ public class Academia {
     }
 
     public void calcularNota(int nota) { 
-        while (10>nota){
-            while(nota>0){
+        if (10>nota){
+            if(nota>0){
         this.nota = nota;
-        }}nota=-0;
+        }}else{
+            nota=-0;
+        }
     }
 
     public String getNome() {
